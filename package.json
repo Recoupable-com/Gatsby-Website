@@ -9,7 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@syncstreamai/syncstream": "file:../syncstream-npm",
+    "@syncstreamai/syncstream": "^0.3.11",
+    "@paper-design/shaders-react": "^0.0.71",
+    "framer-motion": "^12.27.5",
     "next": "16.1.4",
     "react": "19.2.3",
     "react-dom": "19.2.3"
