@@ -17,6 +17,12 @@ const nextConfig: NextConfig = {
       "lodash",
     ],
   },
+  
+  /**
+   * Transpile local linked packages
+   * Required for yarn link'd packages to work with Next.js
+   */
+  transpilePackages: ["@syncstreamai/syncstream"],
 };
 
 export default nextConfig;
