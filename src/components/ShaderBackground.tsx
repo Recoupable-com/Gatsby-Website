@@ -18,14 +18,11 @@ export default function ShaderBackground({ children }: ShaderBackgroundProps) {
         className="absolute inset-0 w-full h-full pointer-events-none"
         colors={["#0f0d1a", "#7c3aed", "#1e1b4b", "#4c1d95", "#000000"]}
         speed={0.15}
-        backgroundColor="#000000"
       />
       <MeshGradient
         className="absolute inset-0 w-full h-full opacity-50 pointer-events-none"
         colors={["#0f0d1a", "#c4b5fd", "#1e1b4b", "#000000"]}
         speed={0.08}
-        wireframe="true"
-        backgroundColor="transparent"
       />
       <div className="relative z-10">{children}</div>
     </div>
